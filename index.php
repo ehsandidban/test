@@ -6,6 +6,6 @@
     <title>Test</title>
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet./p>
+    <p>Lorem ipsum dolor sit amet.</p>
 </body>
 </html>
