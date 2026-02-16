@@ -13,7 +13,7 @@ $url = $_SERVER['HTTP_HOST'];
 
 <body>
     <p>Lorem ipsum dolor sit amet.</p>
-    <a href="<?php echo $url ?>">URL</a>
+    <a href="<?php echo $url . 'new' ?>">New</a>
 </body>
 
 </html>
