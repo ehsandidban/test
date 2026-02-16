@@ -1,5 +1,6 @@
 <?php
-print_r($_SERVER); exit;
+// print_r($_SERVER);
+$url = $_SERVER['HTTP_HOST'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,6 +13,7 @@ print_r($_SERVER); exit;
 
 <body>
     <p>Lorem ipsum dolor sit amet.</p>
+    <a href="<?php echo $url ?>">URL</a>
 </body>
 
 </html>
